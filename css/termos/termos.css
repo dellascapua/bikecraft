@@ -1,0 +1,19 @@
+.termos {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.termos h2 {
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+/* Só será adicionado essa propriedade se o H2 for após o P . Por isso o "+" aqui */
+.termos p + h2 {
+	margin-top: 40px;
+}
+
+.termos p {
+	max-width: 75ch;
+	margin-bottom: 24px;
+}
